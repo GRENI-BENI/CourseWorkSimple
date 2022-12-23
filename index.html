@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <title>Houser</title>
+   <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="authPanel/authPanel.css">
+    <link rel="stylesheet" href="loginPanel/loginPanel.css">
+    <link rel="stylesheet" href="marketPanel/marketPanel.css">
+    <link rel="stylesheet" href="marketPanel/marketItems/card.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body class="d-flex flex-column h-100">
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand logoText" href="/"><img class="logo" style="height: 50px"
+      src="images/favicon.ico"/> Houser</a>
+    <button id="togglerButton" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+
+      <img id="togglerImg" src="http://localhost:3000/togglerIcon.png"/>
+
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" to="/" href="/">Market</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" to="/accountsw" href="/accountsw">My account</a>
+        </li>
+      </ul>
+      <span id="loginLinkContainer" class="navbar-text">
+                          <!--<a id="navbarLink" class="authPanelText nav-link text-light"></a>-->
+                      </span>
+    </div>
+  </div>
+</nav>
+<div id="mainContent">
+
+</div>
+<footer id="footer" class="mt-auto py-3 ">
+    <div class="container" >
+        <span class="text-white logoText" style="float: left"><img class="logo" style="height: 50px" src="images/favicon.ico"/>© 2019-2022
+        </span>
+
+        <span class="text-white"  style=" float: right"><img class="contactIcon"   src="images/phone-solid.svg"/> +380 67 462 85 01<br/>
+              <img class="contactIcon"   src="images/envelope-solid.svg"/> houser@gmail.com
+        </span>
+    </div>
+</footer>
+<script type="module" src="index.js"></script>
+<script type="module" src="marketPanel/marketItems/card.js"></script>
+</body>
+</html>

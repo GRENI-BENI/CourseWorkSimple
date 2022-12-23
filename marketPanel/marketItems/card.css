@@ -1,0 +1,20 @@
+.card{
+    max-width: 500px;
+    padding:6px;
+    borderColor:black;
+    margin:5px
+}
+
+.card div a{
+    background: #282c34;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.card div a:hover{
+
+    background: -webkit-linear-gradient(left,#e73bb9,#e73bb9, #6f6599, #2494a3);
+    color: white;
+    border: none;
+}

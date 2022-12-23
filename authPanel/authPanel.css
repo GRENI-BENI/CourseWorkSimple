@@ -1,0 +1,11 @@
+.authPanelText{
+     background: -webkit-linear-gradient(left,#e73bb9, #6f6599, #2494a3);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+     font-weight: 600;
+     width: auto !important;
+ }
+.authPanelText:hover{
+   cursor: pointer;
+}
